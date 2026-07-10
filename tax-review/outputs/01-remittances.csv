@@ -1,0 +1,6 @@
+date,calendar_year,type,description,currency_in,amount_in_original,assumed_fx_to_thb,amount_thb,source_account,evidence_doc,characterisation,label
+# TEMPLATE ONLY - no rows populated because no remittance evidence exists (see 00-intake-register.md, gap G-04).
+# type = bank_transfer_in | atm_withdrawal | card_spend_thb
+# characterisation = current_year_income | pre_2024_savings_pool | mixed | unknown
+# label = KNOWN | INFERRED | ASSUMED
+# Populate from engagement brief item 10 (Revolut + Wise/other rails) once supplied. Do not fabricate rows.
