@@ -325,9 +325,24 @@ This is a decision-support formula, not a computed liability.
 **Illustrative range under current law (Por 161/162): ≈ THB 18,000 – 110,000
 (≈ AUD 780 – 4,800)** for the year, entirely driven by (i) whether the unsubstantiated ATM
 amount is a remittance of assessable income and (ii) the FX rate and characterisation
-assumptions. **Sensitivity note:** if the income is instead characterised as s.40(8)
-business income with a 60% deduction, the high-case tax falls materially (to roughly
-THB 25,000 / AUD ~1,100), showing how much characterisation matters.
+assumptions. **Sensitivity note (CORRECTED per RT-11):** if the income is instead
+characterised as s.40(8) business income with a 60% deduction, the high-case deduction is
+THB 681,780, so `N` ≈ 1,136,300 − 681,780 − 60,000 = **THB 394,520**, giving progressive
+tax ≈ **THB 17,000 (AUD ~740)** — not the THB 25,000 stated in an earlier draft, which was
+overstated. The corrected figure reinforces the point: s.40(8) characterisation materially
+lowers the tax versus s.40(2).
+
+> **Remittance-vs-receipt caveat (RT-04, important).** The figures above treat the brief's
+> "CBA transfers" and "T&H" receipts as if they were assessable remittances into Thailand.
+> That is almost certainly wrong as a matter of Thai law: the Thai charge attaches on
+> **bringing income into Thailand**, not on receiving it into an Australian account (CBA =
+> Commonwealth Bank of Australia). Money received in Australia and never moved to Thailand is
+> **not** a s.41 remittance. On the current (evidence-free) dataset the **only** candidate
+> Thai remittance is the ATM line — which the brief itself calls "unsubstantiated". The
+> honest illustrative base is therefore "unknown, plausibly near nil, at most the ATM
+> withdrawals traced to post-2024 income". The numbers above are retained only to show the
+> bracket mechanics, not as an estimate of Theo's likely Thai tax. A true remittance
+> schedule (item 10) is required.
 
 **Same figures, hypothetically under the DRAFT two-year exemption (NOT enacted — §3):**
 because 2025/2026 income remitted in 2025/2026 is within "year earned or the following

@@ -31,8 +31,16 @@ professional sources that quote the primary text. **The NZ accountant should ope
 URL directly to confirm the exact statutory wording before relying on it.**
 
 **Currency alert (important):** IRD's long-standing residence interpretation statement
-**IS 16/03 has been replaced by IS 25/16 "Tax residence" (issued May 2025)**. IS 25/16 is
+**IS 16/03 has been replaced by IS 25/16 "Tax residence" (issued 16 May 2025)**. IS 25/16 is
 the current statement and is cited throughout. (verified July 2026)
+
+> **Post-review correction (RT-03).** An earlier draft cited IS 25/16 using the old
+> `interpretation-statements/is-1603-tax-residence` slug (the URL for the superseded IS
+> 16/03). The correct location, re-verified 10 July 2026, is
+> https://www.taxtechnical.ird.govt.nz/interpretation-statements/2025/is-25-16 (issue date
+> 16 May 2025; confirmed by Deloitte NZ, "Out with the old, in with IS 25/16"). The URLs
+> below are corrected. The substantive point — IS 25/16 exists and replaced IS 16/03 — is
+> confirmed, not merely inferred.
 
 ---
 
@@ -51,7 +59,7 @@ is the dominant rule: a person **cannot** shed New Zealand residence under the d
 rules while they retain a PPOA here. "Permanent place of abode" is **not defined in the
 statute**; its meaning comes from case law and IRD IS 25/16. (verified July 2026 —
 https://legislation.govt.nz/act/public/2007/0097/latest/DLM1523134.html;
-https://www.taxtechnical.ird.govt.nz/interpretation-statements/is-1603-tax-residence)
+https://www.taxtechnical.ird.govt.nz/interpretation-statements/2025/is-25-16)
 
 ### 1.2 The 183-day rule (residence starts) — s YD 1(3)–(4)
 
@@ -125,7 +133,7 @@ which replaced IS 16/03 and adopts the Diamond/Van Uden framework, listing PPOA 
 ties, employment/business, economic ties, property, and personal effects). IRD determines
 individual residence in practice using the **IR886 "New Zealand tax residence questionnaire"**.
 (verified July 2026 —
-https://www.taxtechnical.ird.govt.nz/interpretation-statements/is-1603-tax-residence;
+https://www.taxtechnical.ird.govt.nz/interpretation-statements/2025/is-25-16;
 https://www.ird.govt.nz/international-tax/individuals/tax-residency-status-for-individuals)
 
 **INFERRED application (hypothetical only):** On Van Uden, if Theo retains a New Zealand
@@ -320,7 +328,7 @@ available. These cannot be resolved on the current (empty) record.
 - Goods and Services Tax Act 1985, s 5 (incl. s 5(3), s 5(3B) deemed supply) —
   https://www.legislation.govt.nz/act/public/1985/0141/latest/dlm81877.html
 - IRD Interpretation Statement IS 25/16 "Tax residence" (May 2025; replaces IS 16/03) —
-  https://www.taxtechnical.ird.govt.nz/interpretation-statements/is-1603-tax-residence
+  https://www.taxtechnical.ird.govt.nz/interpretation-statements/2025/is-25-16
   (current-statement landing page) and PDF
   https://www.taxtechnical.ird.govt.nz/-/media/project/ir/tt/pdfs/interpretation-statements/2025/is-25-16.pdf
 - IRD — Tax residency status for individuals (183/325-day guidance) —

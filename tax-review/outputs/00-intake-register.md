@@ -125,8 +125,30 @@ to fabricate a fact base (prohibited by operating rules 1 and 3) or to produce l
 memos with no facts to apply them to (of limited value and outside the designed control
 flow). The correct action under the engagement's own rules is to STOP here and report.
 
-**Phase 1 has not been commenced. No residency conclusion, tax figure, or scenario has
-been produced.**
+**At the time this register was first written, Phase 1 had not been commenced and no
+residency conclusion, tax figure, or scenario had been produced.**
+
+### 5.1 Reconciliation — re-scope after the stop was reported (added post-review, RT-01)
+
+The Phase 0 stop condition was reported to the client (Theo) as required. The client then
+directed the work to **continue**. On that instruction the engagement was **re-scoped**, and
+the later phases were produced on that basis:
+
+- **What was produced despite the empty evidence base:** law-only research memos (`02`–`05`,
+  fully cited) and a **parameterised illustration** (`03` §8, `06`) built exclusively on the
+  brief's own approximate, expressly-labelled ASSUMED figures.
+- **What was NOT done:** no fact was fabricated; no figure is presented as an established
+  liability; no residency **conclusion of fact** is asserted; `tax-review/inputs/` remains
+  empty.
+- **Status of the numbers:** every dollar/baht figure in `03` and `06` is an ILLUSTRATIVE
+  placeholder demonstrating mechanics, not a finding. The red-team review (`07`) records this
+  as its central caution (RT-01, RT-02, RT-04); the position paper (`08`) leads with it.
+
+This note removes the contradiction the red team identified between this register (which
+originally said "no scenario produced") and the existence of `03`/`06`. The correct reading:
+**the modelled layer exists only as a mechanics illustration produced after the stop was
+reported and continuation was authorised; it is not, and must not be read as, an evidenced
+result.**
 
 ---
 

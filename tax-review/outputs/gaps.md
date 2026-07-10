@@ -68,6 +68,11 @@ Legend: **CRITICAL** blocks the analysis · **HIGH** materially changes a conclu
 
 ## Status
 
-Phase 0 stop condition is met (G-01 to G-05). The analysis is paused pending provision
-of the section 4 documents, or an explicit per-item "not available" statement from Theo.
-No Phase 1 agent has been spawned and no figure has been modelled.
+Phase 0 stop condition is met (G-01 to G-05): no primary evidence exists.
+
+**Update (post-review, RT-01):** the stop was reported to the client, who directed the work
+to continue. Phases 1–4 were then produced on a **re-scoped, law-only + labelled-illustration**
+basis. Every gap G-01 to G-23 **remains open** — none has been closed by evidence, because
+`tax-review/inputs/` is still empty. Accordingly, no figure in `03`/`06` is an evidenced
+result; each is an illustrative placeholder pending the documents. These gaps are the
+substance of the adviser handover pack (`09`).

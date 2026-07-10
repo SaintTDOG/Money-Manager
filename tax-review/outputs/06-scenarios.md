@@ -35,6 +35,21 @@ behaves. It does not and cannot produce a real tax number.
 company risk = `04`; treaty mapping = `05`. Legal citations are not repeated here; they live
 in those memos (all verified 10 July 2026).
 
+> **Two corrections applied after the red-team review (`07`):**
+>
+> 1. **Remittance ≠ receipt (RT-04).** The Thai charge attaches on income **brought into
+>    Thailand**, not on receipt into an Australian account. "CBA transfers" (Commonwealth Bank
+>    of **Australia**) are most likely funds received **in Australia** and are **not** Thai
+>    remittances unless and until moved to Thailand. On the current evidence-free dataset the
+>    **only** candidate Thai remittance is the ATM line — which the brief calls
+>    "unsubstantiated". So the honest illustrative Thai base is **"unknown, plausibly near
+>    nil, at most the ATM withdrawals"**, and the THB 18–110k range below is retained only to
+>    show bracket mechanics, **not** as an estimate of Theo's likely Thai tax.
+> 2. **AU residency is itself assumed (RT-07).** "Nil AU tax" depends on **two** unproven
+>    facts — that Theo is an AU **foreign resident** *and* that he performs **no** work in
+>    Australia. There is no AU day count in this pack. Every "nil AU" below is conditional on
+>    both, and is written "Nil **if** foreign-resident and no AU-performed work".
+
 ---
 
 ## 1. The four scenarios
@@ -50,6 +65,30 @@ in those memos (all verified 10 July 2026).
 Each is assessed on: total tax across NZ/AU/Thailand; compliance cost; enforcement/penalty
 risk; reversibility; and second-order effects on HA Pty Ltd and T&H Collective (and thus on
 Hadleigh Vernall and Henry Holmes).
+
+### 1.1 Standing, all-scenarios risk — company Thai PE / central management and control (RT-06)
+
+This risk is **elevated out of S4** because it does **not** depend on any elective structure —
+it may **already be live in every scenario**, including the status quo. The entity is named
+**"T&H Collective" (Theo & Henry Holmes)**; on the obvious reading Theo is very likely already
+a **director/decision-maker** of T&H (and possibly HA), and he is exercising that role **from
+Phuket now**. Under `04` C.1 (Bywater; TR 2018/5; PCG 2018/9) and the Australia–Thailand 1989
+DTA, a director habitually exercising a company's central management and control from Thailand
+can create a **Thai permanent establishment / management presence**, drawing company profits
+into **Thai corporate tax** and triggering Thai corporate filing.
+
+**Why this dominates the personal analysis:** company profits can be an order of magnitude
+larger than Theo's personal draw. If HA is pursuing a "$750K target" (brief item 17), a Thai
+PE could expose a slice of **company-level** profit to Thai tax — potentially **dwarfing** the
+THB 18–110k of *personal* tax the rest of this pack models. That exposure lands on **Hadleigh
+Vernall and Henry Holmes**, not only Theo. It is currently **unquantified** (no company
+financials — G-15; directorship unconfirmed — G-16) and the 1989-treaty PE threshold
+(fixed place of business / dependent agent / any services-PE time test) has not been run.
+
+**Consequence for the decision:** resolving Theo's directorship and decision-making role, and
+sizing the company Thai-PE exposure, is a **priority fact**, not a background gap — and it may
+matter more than the choice between S1–S4. Carried to `08` as a lead risk and to `09` for the
+Australian and Thai advisers jointly.
 
 ---
 
@@ -99,11 +138,15 @@ services income). Thailand taxes foreign-source income **on remittance** under P
 - **NZ:** nil on services income once genuinely non-resident (subject to a part-year IR3 in
   the cessation year, and any GST deemed-supply exit cost — `02` §5).
 - **Australia:** nil on services income (unchanged).
-- **Thailand (current law, Por 161/162):** illustrative **THB 18,000–110,000 (~AUD 780–4,800)**
-  per year on remittances (`03` §8), driven mainly by whether the ~AUD 24,860 ATM line is a
-  remittance of assessable income and by characterisation. A genuine evidenced pre-2024
-  savings pool (Por 162) could reduce this materially, potentially toward nil, if remittances
-  trace to pre-2024 capital.
+- **Thailand (current law, Por 161/162):** the **honest** illustrative base is **near-nil to
+  the ATM line only** (RT-04): the CBA/T&H receipts are most likely received in Australia and
+  are not Thai remittances. If — and only if — the unsubstantiated ~AUD 24,860 of ATM
+  withdrawals are both (a) genuine remittances and (b) traced to post-2024 assessable income,
+  the mechanics give of the order of **THB tens of thousands (roughly AUD 1,000–2,000)**; the
+  wider THB 18–110k figure in `03` §8 assumes the CBA/T&H amounts are also remitted and should
+  be read as a **ceiling on ungrounded inputs**, not an estimate. A genuine evidenced pre-2024
+  savings pool (Por 162) could reduce even the ATM exposure toward nil if remittances trace to
+  pre-2024 capital.
 - **Thailand (hypothetical draft exemption — NOT enacted, `03` §3):** THB 0 on 2025/2026
   income remitted in-year. **This relies on law that does not exist in July 2026** — see the
   sensitivity note §6.
@@ -244,24 +287,30 @@ exemption, that is a red flag, not a plan (see `07` red-team).
 
 | Dimension | S1 Remain NZ | S2 Sole Thai | S3 Dual (tie-break) | S4 Restructure |
 |---|---|---|---|---|
-| **NZ tax** | Worldwide (illus. NZD 3–4k) | Nil once ceased (+ exit costs) | Higher-of, relieved | As S2 |
-| **AU tax (Theo)** | Nil on services | Nil on services | Nil on services | Route-dependent (dividends/dir. fees can add AU) |
-| **Thai tax** | Only if ≥180 days; relieved | THB 18–110k (0 under unenacted draft) | THB 18–110k, primary or relief | THB 18–110k + route effects |
-| **Combined (illus.)** | NZD ~3–4k + Thai if resident | ~AUD 780–4,800 | ~higher-of the two | Contractor lowest; dir/div higher |
+| **NZ tax** | Worldwide (illus. ~NZD 3–4k, pre-expenses) | Nil once genuinely ceased (+ exit costs) | Higher-of, relieved | As S2 |
+| **AU tax (Theo)** | Nil *if* foreign-resident & no AU-performed work | Nil *if* foreign-resident & no AU-performed work | Nil *if* foreign-resident & no AU-performed work | Route-dependent (dividends/dir. fees can add AU) |
+| **Thai tax (personal)** | Only if ≥180 days; relieved | Near-nil to ATM-line only (unverified base) | Same base, primary or relief | Same base + route effects |
+| **Company Thai-PE tax** | Possibly live (§1.1) | Possibly live (§1.1) | Possibly live (§1.1) | Possibly live and **aggravated** by Thai-director route |
+| **Combined (illus.)** | ~NZD 3–4k + Thai if resident | Personal likely small; **company PE risk unquantified** | ~higher-of the two + company PE | Contractor lowest; dir/div higher + company PE |
 | **Compliance cost** | Moderate (NZ + maybe Thai) | Low–moderate (Thai + NZ exit) | **Highest** (dual + MAP) | High (company-level + treaty) |
 | **Enforcement/penalty risk** | Low–moderate | Moderate–high (cessation must be real; omitted Thai return) | Moderate (temp. double tax) | Moderate–high (Part IVA) |
 | **Reversibility** | Full | **Low (irreversible-class)** | High | Low (presupposes S2) |
-| **Effect on HA/T&H (co-owners)** | Neutral | Neutral | Neutral | **Adverse** if Thai-director route (CM&C/PE) |
-| **Relies on unenacted decree?** | No | Only the "THB 0" variant | No | No (unless it leans on draft) |
+| **Effect on HA/T&H (co-owners)** | Company PE risk (§1.1) | Company PE risk (§1.1) | Company PE risk (§1.1) | **Adverse** — Thai-director route aggravates CM&C/PE |
+| **Relies on unenacted decree?** | No | No (do NOT rely on the draft) | No | No |
 
-**Headline (ILLUSTRATIVE, not advice):** the Thai tax at stake on the brief's figures is
-**small in absolute terms (~AUD 780–4,800/year)**. That materially weakens the case for taking
-an **irreversible** NZ-cessation step (S2) primarily to save Thai tax — especially when (a) the
-NZ PPOA test may keep Theo NZ-resident anyway (`02`), (b) the biggest number in the model is an
-**unsubstantiated** ATM figure, and (c) the "THB 0" outcome depends on an **unenacted** decree.
-The disciplined path is to **resolve the evidence and the tie-breaker (S3) before electing S1
-or S2** — the decision does not need to be made irreversibly now, and the sums do not justify
-haste.
+*(The draft two-year exemption would drive the personal Thai figure to THB 0, but it is **not
+enacted** — see §6. It is deliberately kept out of this decision table so no cell displays a
+number that assumes law which does not exist.)*
+
+**Headline (ILLUSTRATIVE, not advice — for the adviser to weigh, `08` carries the actual
+recommendation):** on the pack's figures the **personal** Thai tax at stake is **small** —
+*conditional on the base being real*, which it is not yet (the largest input is an
+unsubstantiated ATM figure, and CBA/T&H receipts may not be Thai remittances at all, RT-04).
+Weighed against that small, unverified personal saving are three counterweights: (a) S2 is an
+**irreversible-class** step; (b) the **NZ PPOA test may keep Theo NZ-resident anyway** (`02`,
+Van Uden); and (c) the **company Thai-PE exposure (§1.1) is unquantified and could exceed the
+entire personal figure**. These are **considerations for the licensed advisers to weigh**, not
+a directive from this pack; the sequenced recommendation lives in `08`.
 
 ---
 
@@ -275,6 +324,33 @@ haste.
 
 ---
 
-## Revision log (responses to Phase 3 red-team)
+## Revision log (responses to Phase 3 red-team `07`)
 
-*To be completed after `07-redteam.md`. Each red-team finding will be answered here.*
+Every finding in `07-redteam.md` is answered below. "Accepted + fixed" means the pack was
+changed; "Accepted — carried to `08`/`09`" means it is recorded as a required pre-sign-off
+action; "Partly accepted" explains any divergence.
+
+| ID | Sev | Response |
+|---|---|---|
+| RT-01 | Critical | **Accepted + fixed.** `00` §5.1 and `gaps.md` now reconcile the Phase 0 stop: the stop was reported, continuation was authorised, and the modelled layer is expressly re-scoped as a mechanics illustration on zero primary evidence. `08` leads with this. |
+| RT-02 | Critical | **Accepted — carried to `08`/`09`.** No primary text was machine-fetched (egress 403). `08` §1 adds a global reliability caveat that "KNOWN" here means "consistently reported by July-2026 secondary sources, not primary-checked", and `09` lists the primary line-checks each adviser must perform. Two of the most load-bearing items were re-verified by fresh search: IS 25/16 (RT-03) and AU–TH Art 14 IPS (RT-05) — both confirmed. |
+| RT-03 | High | **Accepted + fixed and re-verified.** IS 25/16 exists, issued 16 May 2025, replaced IS 16/03 (Deloitte NZ; IRD Tax Technical). `02` URLs corrected from the `is-1603` slug to `/2025/is-25-16`; a correction note added. The substantive PPOA point stands. |
+| RT-04 | High | **Accepted + fixed.** `03` §8 and `06` §0/S2 now separate "received" from "brought into Thailand": CBA/T&H receipts are likely Australian-account receipts, not Thai remittances; the only candidate remittance is the unsubstantiated ATM line. The base is restated as "unknown, plausibly near nil"; the THB 18–110k range is relabelled a ceiling on ungrounded inputs, not an estimate. |
+| RT-05 | High | **Accepted — re-verified.** AU–TH 1989 DTA **does** retain a separate Art 14 IPS (183-day / fixed-base test) — confirmed against ATO Sch 30 Art 14 and secondary sources (10 July 2026). NZ–TH article numbers remain INFERRED pending a DLM267900 line-check; `09` lists this as a Thai/treaty adviser action. |
+| RT-06 | High | **Accepted + fixed.** Company Thai-PE/CM&C exposure is elevated to a **standing all-scenarios risk** (`06` §1.1), flagged as possibly already live (T&H = Theo & Henry Holmes, directed from Phuket), potentially larger than the personal tax, and carried to `08` as a lead risk and `09` for the AU + Thai advisers. |
+| RT-07 | High | **Accepted + fixed.** Every "nil AU" cell now reads "Nil *if* foreign-resident **and** no AU-performed work"; `06` §0 flags that AU residency itself is assumed and there is no AU day count; `09` adds an AU residency assessment to the Australian adviser's questions. |
+| RT-08 | Medium | **Accepted + fixed.** The "THB 0 under unenacted draft" figure is removed from the comparison table; the draft exemption now appears only in the prose sensitivity note (§6) and a parenthetical stating it is deliberately excluded from the decision table. |
+| RT-09 | Partly accepted + fixed. | The "disciplined path is…" directive in `06` §7 is reworded to "considerations for the licensed advisers to weigh", with the actual recommendation reserved for `08` (which Phase 4 expressly requires to contain "recommended scenario with reasoning" — a recommendation there is in scope, framed as decision-support, not a filing position). `03` §5's "would file PND 90" should be read conditionally; noted for the Thai adviser. |
+| RT-10 | Medium | **Accepted + fixed.** Thai figures rounded to two significant figures and labelled illustrative; FX flagged as requiring per-date rates once a real schedule exists. The spurious precision ("THB 17,950") is confined to `03`'s worked mechanics with its caveat. |
+| RT-11 | Medium | **Accepted + fixed.** `03` §8.2 s.40(8) sensitivity corrected: on the stated inputs the high-case tax is ≈ **THB 17,000**, not THB 25,000 (working shown). |
+| RT-12 | Medium | **Accepted + fixed.** The "AUD 780–4,800" range is no longer presented as the answer: `06` restates the base as unverified and near-nil, and the "small sums" argument is expressly conditioned on the base being real. |
+| RT-13 | Low | **Accepted + fixed.** S1's "AUD→NZD parity" shorthand corrected to "~NZD 3–4k, pre-expenses"; noted a real sole-trader figure is net of expenses/ACC. |
+| RT-14 | Low | **Accepted — carried to `08`.** The apparent `04`-vs-`05` tension is a completeness device: `04` concludes AU likely has no source; `05` runs the treaty "assuming AU asserts source" only to complete the map. `08` states this once so it does not read as a contradiction. |
+| RT-15 | Low | **Accepted — carried to `09`.** NZ s YD 1(8) part-day asymmetry is secondary-sourced; listed as an NZ-accountant primary line-check because it moves the backdated cessation date. |
+
+**Net effect of the revision:** the pack no longer presents any Thai figure as a likely
+liability; the company-level PE risk is promoted to a lead, all-scenarios concern; the
+decision surface is stripped of unenacted-law and unhedged-AU cells; and two contested facts
+were re-verified in the pack's favour. The central caution stands and is now stated up front:
+**there is no evidence base, and no primary law was machine-verified — the numbers are
+mechanics, not findings.**
