@@ -76,3 +76,23 @@ basis. Every gap G-01 to G-23 **remains open** — none has been closed by evide
 `tax-review/inputs/` is still empty. Accordingly, no figure in `03`/`06` is an evidenced
 result; each is an illustrative placeholder pending the documents. These gaps are the
 substance of the adviser handover pack (`09`).
+
+**Update (11 Jul 2026 — local computer scan; see `00` §7):** a scan of Theo's local machine
+located several items on disk, but the files live on his **local** computer and have **not**
+been delivered into this **remote** session, so every gap **remains open here**. Availability
+now splits into "exists, provide it" vs "genuinely not available":
+
+- **Now partly evidenced on disk (deliver to close):** G-04 Wise export Oct-2024→Oct-2025;
+  G-05 HA invoices (mid-2024); G-06 ASB statement covering 31 Dec 2023; G-08 ASB statements;
+  G-10 an unidentified IRD form; G-15 HA & T&H company extracts; G-09 StudyLink/SIT study tie;
+  G-16 directorship (via extracts).
+- **Confirmed NOT AVAILABLE (findings in themselves):** G-01 passport **stamp pages** (only a
+  bio-page exists); G-11/G-12/G-13 Thai lease (Sivana), DTV grant letter, Thai bank/TIN;
+  G-14 services agreements Theo↔HA and Theo↔T&H (structural gap).
+- **Still critically incomplete:** G-01/02/03 day counts; G-04 Revolut rail absent + Wise
+  outside Oct24–Oct25; G-05 all T&H invoices and any FY2025–26 invoices; G-06 non-ASB accounts
+  at 31 Dec 2023.
+- **New signal (raises NZ residency likelihood):** G-07 — no lease/ownership doc, but ASB
+  transfers with **MRS V P HOLMES / MR H G HOLMES** are circumstantial evidence of a NZ family
+  home available to Theo. If confirmed, this pushes the PPOA (Van Uden) and the treaty
+  tie-breaker **toward NZ**, reinforcing `08`'s recommendation against premature NZ cessation.

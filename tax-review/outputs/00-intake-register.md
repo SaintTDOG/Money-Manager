@@ -166,3 +166,65 @@ analysis-critical items must be supplied before Phase 1 can safely run:
 
 See `gaps.md` for the consolidated, numbered gap list that will seed the adviser
 question pack.
+
+---
+
+## 7. Update — local computer scan of 11 July 2026 (evidence located, not yet delivered)
+
+A scan of Theo's local machine (`~/Desktop`, `~/Documents`, `~/Downloads`) was run on
+11 July 2026 and catalogued which of the 19 items exist on disk. **Important environment
+note:** that scan and its files live on Theo's **local computer**. This review runs in a
+**remote container** that cannot reach `~/Desktop`; the actual data files have **not** been
+delivered into `tax-review/inputs/` (still empty) and their contents have not been read here.
+So the analysis remains law-only/illustrative — but the availability picture is now much
+sharper. Statuses below: **STAGED/ON-DISK** = the file exists and can be provided;
+**NOT AVAILABLE** = nothing found (a valid finding in itself).
+
+### Tier 1 — analysis-critical
+| # | Item | Scan result |
+|---|---|---|
+| 1 | Passport stamps / immigration record | **PARTIAL** — passport **bio-page only**; entry/exit **stamp pages NOT AVAILABLE**. Day counts cannot be built from a bio-page. Still critical. |
+| 2 | Flight itineraries | **PARTIAL** — only 2 movements on disk (VietJet PVG→BKK booked 01/07/2025; a Spirit US-domestic boarding pass 31/10/2023). Full 2024→2026 history **NOT AVAILABLE** (pull from Gmail/airline accounts). |
+| 3 | Day-count table | **NOT AVAILABLE** — derived; blocked on items 1–2. |
+| 4 | Money into Thailand | **PARTIAL** — Wise export **18 Oct 2024 → 20 Oct 2025** (1,668 txns) on disk. **Revolut NOT AVAILABLE**; Wise Jan–Oct 2024 and post-Oct 2025 **NOT AVAILABLE**. Remittance map still incomplete. |
+| 5 | Invoices to HA / T&H | **PARTIAL** — HA invoice(s) mid-2024 on disk (e.g. HOA-INV004, 27 May 2024). **Invoices to T&H NOT AVAILABLE; any FY2025–26 invoices NOT AVAILABLE.** |
+| 6 | 31 Dec 2023 balances | **PARTIAL/CORE OK** — ASB Streamline statement spanning 20 Sep 2023 → 20 Mar 2024 covers the 31 Dec 2023 balance. Other accounts (Revolut/Thai/other) at 31 Dec 2023 **NOT AVAILABLE** — pool not yet fully fixed. |
+
+### Tier 2 — high
+| # | Item | Scan result |
+|---|---|---|
+| 7 | NZ dwelling (PPOA) | **NOT AVAILABLE (circumstantial only)** — no lease/ownership doc; ASB shows transfers with MRS V P HOLMES / MR H G HOLMES (consistent with a family home available to Theo, but not evidenced). Decisive for Van Uden — must be confirmed. |
+| 8 | NZ bank statements (all accts) | **PARTIAL** — ASB Streamline statements/exports across parts of 2023–2025. Coverage gaps ~Apr–Oct 2024 and Oct 2025→Jun 2026. Other NZ banks **NOT AVAILABLE/unconfirmed**. |
+| 9 | IR3 / IRD correspondence | **PARTIAL** — an unidentified "IRD FORM.pdf" on disk (type unconfirmed). Filed **IR3 NOT AVAILABLE**. |
+| 10/11 | Sivana lease; DTV grant; Thai bank/TIN | **NOT AVAILABLE** — no Thai lease, no DTV approval/conditions letter, no Thai bank statement, no TIN found. |
+| 12 | Services agreements Theo↔HA / Theo↔T&H | **NOT AVAILABLE** — none found. **Structural gap** (its non-existence is itself a finding; drives fee-vs-dividend characterisation). |
+| 13 | HA/T&H financials, shareholder agreements, trust deed | **PARTIAL** — ASIC/company **extracts** for HA and T&H on disk. Full **financial statements, shareholder agreements, trust deed NOT AVAILABLE**. |
+| 15 | Directorship + AU-physical-work | **PARTIAL** — directorship/shareholding shown in the company extracts. **Record of any work performed while physically in Australia NOT AVAILABLE** (drives the company Thai-PE risk). |
+
+### Tier 3 — medium
+| # | Item | Scan result |
+|---|---|---|
+| 16 | Secondary NZ ties | **PARTIAL** — NZ StudyLink allowance + SIT enrolment (a study tie) on disk. KiwiSaver / insurance / vehicle / electoral / health **NOT AVAILABLE**. |
+| 17–19 | Projections / intentions / visa plans | **NOT AVAILABLE** — narrative items to be provided by Theo. |
+
+### What this update changes
+- The **PPOA question (item 7)** now has a circumstantial signal (family-account transfers with V P and H G Holmes) pointing toward a NZ family home available to Theo — which, if confirmed, would push the NZ residency and treaty tie-breaker **toward NZ** (Van Uden), not Thailand. This strengthens `08`'s recommendation against a premature NZ cessation.
+- The **NZ study ties (item 16)** and StudyLink allowance are further NZ-connection factors.
+- The **remittance base (item 4)** is now partly evidenced (Wise), but **Revolut is absent** and the ATM figure remains unsubstantiated — the RT-04 caution stands.
+- **T&H invoices and any services agreements remain absent** — characterisation (G-16) and the T&H income schedule cannot be built.
+
+**None of this lifts the Phase 0 stop for the quantitative analysis in this remote session,**
+because the files themselves are not readable here. To proceed, the actual files must be
+delivered to this session (see §8).
+
+### 8. How to actually deliver the evidence to this (remote) session
+The `cp` commands in the local scan register only work in a **local** Claude Code session. In
+this remote session, either:
+1. **Upload the actual files** (Wise CSV, ASB statements/exports, the HA invoices, HA & T&H
+   company extracts, the IRD form, StudyLink) directly into the chat — they will be readable
+   and I will parse them into `01-facts-and-flows.md` / `01-remittances.csv`; or
+2. **Run the analysis locally** — open a Claude Code session on Theo's own machine, run the
+   scan register's `cp` commands to stage `inputs/`, and re-run Phases 1–4 there against the
+   real files; or
+3. **Commit the files** into `tax-review/inputs/` on the branch (if appropriate for these
+   sensitive documents — consider privacy before committing bank/passport data to git).
