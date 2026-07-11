@@ -96,3 +96,19 @@ now splits into "exists, provide it" vs "genuinely not available":
   transfers with **MRS V P HOLMES / MR H G HOLMES** are circumstantial evidence of a NZ family
   home available to Theo. If confirmed, this pushes the PPOA (Van Uden) and the treaty
   tie-breaker **toward NZ**, reinforcing `08`'s recommendation against premature NZ cessation.
+
+**Update (11 Jul 2026 — passport stamp pages received; see `01-passport-daycount.md`):**
+- **G-01 partially closed:** nine passport photos (bio + eight stamped spreads) supplied and
+  transcribed (provisional, photo-based — must be verified against the physical passport). The
+  stamp pages are received; a certified count and an official Thai immigration movement record
+  are still needed.
+- **G-03 materially advanced:** provisional Thai day-count built — 2024 **~100–160 (likely
+  under 180 → likely NON-resident)**; 2025 **~180–205 (borderline)**; 2026 on track. The
+  brief's assumption A1 (≥180 days in 2025) is **NOT safely established** — 2025 is marginal.
+- **G-02 still open and now critical:** no NZ/AU stamps exist (expected). Flight/e-gate records
+  are needed to locate the non-Thailand periods (especially ~17 Jan–2 Jun 2025) into NZ/AU.
+- **NEW GAP G-24 (DTV discrepancy, HIGH):** the stamp pattern (tourist-exemption entries,
+  border runs, overstay fines through 2025; a ~180-day DTV-style admission only from Apr 2026)
+  appears inconsistent with the brief's "resident in Phuket on a DTV since May 2025". Confirm
+  the DTV grant/first-use date (relates to G-12). If the DTV began ~2026 not May 2025, the
+  residency narrative, the LTR analysis and A1 all shift.

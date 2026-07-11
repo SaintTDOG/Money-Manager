@@ -1,0 +1,5 @@
+# Privacy: never commit raw client evidence (passport, bank, tax documents) to git history.
+# Only committed outputs (tax-review/outputs/) may reference this data, with PII redacted.
+*
+!.gitignore
+!README.md

@@ -34,6 +34,29 @@ and adviser verification.
 
 ---
 
+## 1a. Evidence update — passport stamps received 11 July 2026 (changes two assumptions)
+
+Passport stamp pages were supplied on 11 July 2026 and transcribed provisionally in
+`01-passport-daycount.md` (photo-based; must be verified against the physical passport and
+flights). Two shifts from the brief's assumptions, both feeding the table below:
+
+- **2024 Thai residency now looks NEGATIVE** (~100–160 provisional Thai days; at 1 Jan 2024 he
+  was in Malaysia). If confirmed, 2024 is outside the Thai remittance charge and NZ residence
+  for 2024 is stronger.
+- **2025 is genuinely BORDERLINE, not a clear "resident"** (~180–205 provisional days; out of
+  Thailand ~17 Jan–2 Jun 2025, then heavy presence with a China trip and border runs). The
+  brief's assumption A1 (≥180 days in 2025) is **not safely established** and must be counted
+  to the day.
+- **DTV discrepancy (new, G-24):** the stamps read as tourist-exemption entries, border runs
+  and overstay fines through 2025, with a ~180-day DTV-style admission only from April 2026 —
+  apparently inconsistent with "on a DTV since May 2025". Confirm the DTV grant/first-use date.
+- **NZ/AU days remain unevidenced** (no NZ/AU stamps; e-gates). Flights (G-02) are now the
+  critical missing item to locate the 2025 gap into NZ/AU.
+
+These strengthen, not weaken, the recommendation in §3: if 2024 is non-resident, 2025 is
+marginal, and a NZ family home is available (§ gaps G-07), the case against a premature
+irreversible NZ cessation is stronger, and the tie-breaker leans further toward NZ.
+
 ## 2. Most defensible current residency position, per year (LAW-ONLY, contingent)
 
 These are not conclusions of fact — no facts are in evidence. They state what the law most

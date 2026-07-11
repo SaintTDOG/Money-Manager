@@ -23,27 +23,34 @@ headed template.
 
 ---
 
-## (a) Day-count table — TEMPLATE (unpopulated)
+## (a) Day-count table — PARTIALLY EVIDENCED (passport stamps received 11 Jul 2026)
 
-Rule to apply once evidence exists: count days physically present per calendar year per
-country. **Part-days count as full days for Thailand** (Thai practice). Source will be
-passport stamps (item 1) corroborated by flight itineraries (item 2).
+**Update:** nine passport photographs (bio page + eight stamped spreads) were supplied on
+11 July 2026 and transcribed in **`01-passport-daycount.md`**. That is now the working
+day-count source. It is a provisional, confidence-flagged photo transcription — **not a
+certified count** — and must be verified against the physical passport and flight records.
+**Part-days count as full days for Thailand.**
 
-| Calendar year | Days Thailand | Days NZ | Days Australia | Days other | Total | Source docs |
-|---|---|---|---|---|---|---|
-| 2024 | (pending) | (pending) | (pending) | (pending) | 365/366 | items 1-2 |
-| 2025 | (pending) | (pending) | (pending) | (pending) | 365 | items 1-2 |
-| 2026 (to 30 Jun) | (pending) | (pending) | (pending) | (pending) | 181 | items 1-2 |
+Provisional Thai day-count (ranges; see `01a` for the full chronology and confidence flags):
 
-Thresholds this table must be tested against (see 02/03 for law and citations):
+| Calendar year | Thai days (provisional) | Thai resident ≥180? | NZ / AU days | Source |
+|---|---|---|---|---|
+| 2024 | ~100–160 | **Likely NOT** (below 180) | not evidenced (no NZ/AU stamps) | passport + G-02 flights |
+| 2025 | ~180–205 | **Likely, but BORDERLINE** | not evidenced | passport + G-02 flights |
+| 2026 (to 30 Jun) | ~140–160 so far | on track | not evidenced | passport + G-02 flights |
+
+Thresholds (see 02/03 for law and citations):
 - Thailand: 180 days in a calendar year → Thai tax resident (Section 41).
-- NZ: 183-day presence rule (residency start) and 325-day absence rule (residency end),
-  overlaid by the permanent place of abode test (s YD 1).
-- Australia: 183-day test (relevant only if any AU presence — brief assumes minimal).
+- NZ: 183-day presence / 325-day absence rules, overlaid by the permanent place of abode test.
+- Australia: 183-day test (no AU stamps seen; flights needed to confirm).
 
-**Status: ASSUMED unresolved.** The brief's working assumption A1 (Theo exceeded 180
-days in Thailand in 2025 and will in 2026) is ASSUMED and unverified — this is the single
-most important open fact. Gap G-01/G-03.
+**Status: MATERIALLY ADVANCED but not final.** Two changes to the brief's assumptions:
+(i) **2024 Thai residency now looks NEGATIVE** (removes 2024 from the Thai charge; supports NZ
+residence); (ii) the brief's assumption A1 (≥180 days in Thailand in 2025) is **not safely
+established — 2025 is genuinely borderline** and must be counted to the day. Also flagged: the
+stamp pattern (tourist-exemption entries, border runs, overstay fines through 2025; a ~180-day
+DTV-style admission only from Apr 2026) appears **inconsistent with "on a DTV since May 2025"**
+— confirm the DTV grant date (G-12). NZ/AU days remain unevidenced pending flights (G-02).
 
 ---
 

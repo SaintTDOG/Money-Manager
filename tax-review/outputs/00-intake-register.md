@@ -183,7 +183,7 @@ sharper. Statuses below: **STAGED/ON-DISK** = the file exists and can be provide
 ### Tier 1 — analysis-critical
 | # | Item | Scan result |
 |---|---|---|
-| 1 | Passport stamps / immigration record | **PARTIAL** — passport **bio-page only**; entry/exit **stamp pages NOT AVAILABLE**. Day counts cannot be built from a bio-page. Still critical. |
+| 1 | Passport stamps / immigration record | **RECEIVED 11 Jul 2026** — bio page + eight stamped spreads supplied and transcribed in `01-passport-daycount.md` (provisional photo-based count). Physical-passport verification + an official Thai immigration movement record still needed. Supersedes the earlier "bio-page only" status. |
 | 2 | Flight itineraries | **PARTIAL** — only 2 movements on disk (VietJet PVG→BKK booked 01/07/2025; a Spirit US-domestic boarding pass 31/10/2023). Full 2024→2026 history **NOT AVAILABLE** (pull from Gmail/airline accounts). |
 | 3 | Day-count table | **NOT AVAILABLE** — derived; blocked on items 1–2. |
 | 4 | Money into Thailand | **PARTIAL** — Wise export **18 Oct 2024 → 20 Oct 2025** (1,668 txns) on disk. **Revolut NOT AVAILABLE**; Wise Jan–Oct 2024 and post-Oct 2025 **NOT AVAILABLE**. Remittance map still incomplete. |
