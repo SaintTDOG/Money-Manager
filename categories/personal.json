@@ -1,0 +1,22 @@
+[
+  { "name": "Groceries", "gst_default": 0 },
+  { "name": "Fuel", "gst_default": 0 },
+  { "name": "Dining Out", "gst_default": 0 },
+  { "name": "Coffee", "gst_default": 0 },
+  { "name": "Rent / Mortgage", "gst_default": 0 },
+  { "name": "Utilities", "gst_default": 0 },
+  { "name": "Phone & Internet", "gst_default": 0 },
+  { "name": "Streaming & Subscriptions", "gst_default": 0 },
+  { "name": "Health", "gst_default": 0 },
+  { "name": "Fitness", "gst_default": 0 },
+  { "name": "Transport", "gst_default": 0 },
+  { "name": "Travel & Holidays", "gst_default": 0 },
+  { "name": "Shopping", "gst_default": 0 },
+  { "name": "Gifts & Donations", "gst_default": 0 },
+  { "name": "Household", "gst_default": 0 },
+  { "name": "Kids", "gst_default": 0 },
+  { "name": "Income", "gst_default": 0 },
+  { "name": "Savings & Investments", "gst_default": 0 },
+  { "name": "Bank Fees", "gst_default": 0 },
+  { "name": "Uncategorised", "gst_default": 0 }
+]
