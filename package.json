@@ -1,0 +1,40 @@
+{
+  "name": "money-manager",
+  "version": "0.1.0",
+  "description": "Pip the bookkeeper — a blob desktop-pet that keeps your books (personal + AU small business) with the help of Claude.",
+  "main": "src/main/main.js",
+  "author": "SaintTDOG",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist:mac": "electron-builder --mac dmg"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "better-sqlite3": "^11.3.0",
+    "chokidar": "^4.0.1",
+    "csv-parse": "^5.5.6",
+    "electron-store": "^8.2.0",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "electron": "^32.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "au.com.homeownerassist.pip",
+    "productName": "Pip",
+    "asar": true,
+    "files": [
+      "src/**/*",
+      "migrations/**/*",
+      "categories/**/*",
+      "scripts/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.finance",
+      "target": ["dmg"]
+    }
+  }
+}
