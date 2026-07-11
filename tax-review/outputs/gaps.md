@@ -112,3 +112,13 @@ now splits into "exists, provide it" vs "genuinely not available":
   appears inconsistent with the brief's "resident in Phuket on a DTV since May 2025". Confirm
   the DTV grant/first-use date (relates to G-12). If the DTV began ~2026 not May 2025, the
   residency narrative, the LTR analysis and A1 all shift.
+
+**Update (11 Jul 2026 — DTV document received; G-24 and G-12 CLOSED):** Thai e-Visa supplied.
+**DTV F1147331, valid 2 Mar 2026 – 1 Mar 2031, multiple entry, place of issue Sydney.**
+- **Confirms G-24:** the DTV began **2 March 2026**, NOT May 2025. Through Feb 2026 Theo was on
+  tourist exemptions/border runs. The brief's "on a DTV since May 2025" is corrected.
+- The DTV gives **no foreign-income exemption** — ordinary Por 161/162 rules apply while
+  resident.
+- **Minor new question:** place of issue **Sydney** — was Theo in Australia around Feb–Mar
+  2026? (AU-presence/source relevance — resolve with flights, G-02.)
+- Residual G-12 (DTV grant letter) is now satisfied; Thai bank statements / TIN still open.
